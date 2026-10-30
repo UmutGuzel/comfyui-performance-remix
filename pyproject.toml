@@ -1,0 +1,9 @@
+[project]
+name = "comfyui-performance-remix"
+description = "Nodes for swapping a person or an object in a video: long motion transfer, face pass, object fit and paste-back, low-memory clip loading and finish."
+version = "0.1.0"
+license = { file = "LICENSE" }
+dependencies = ["opencv-python>=4.8"]
+
+[tool.comfy]
+DisplayName = "Performance Remix"
